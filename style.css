@@ -1,0 +1,22 @@
+body{
+    background-color:cadetblue;
+    color: #fff;
+}
+main{
+    display: grid;
+    place-content: center;
+}
+.cont{
+    text-align: center;
+}
+.btns button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btns button:hover{
+    color:#fff;
+}
